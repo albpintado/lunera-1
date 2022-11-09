@@ -1,5 +1,6 @@
 import React from "react";
 import { Routes, Route, Link } from "react-router-dom";
+import ScoreBoard from "views/ScoreBoard";
 
 function App() {
   return (
@@ -17,7 +18,7 @@ function App() {
         </nav>
         <Routes>
           <Route path="/tasks" element={<h2>Second View</h2>}></Route>
-          <Route path="/" element={<h2>First View</h2>}></Route>
+          <Route path="/" element={<ScoreBoard />}></Route>
         </Routes>
       </div>
     </div>
