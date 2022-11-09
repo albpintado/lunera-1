@@ -9,7 +9,7 @@ This project will be organized in Sprints.
 This Sprint will contain part of the UI, more specifically:
 
 ### Team displayed by boxes
-The different teams are displayed in a different box with:
+The different teams are displayed in different boxes with:
 * Their team-name
 * The number of points that they currently have
 
