@@ -1,3 +1,23 @@
+# Lunera - Team Points
+
+This project is dedicated to the group *Lunera*, in charge of developing the "Team Points" application.
+
+This project will be organized in Sprints.
+
+## Sprint 1
+
+This Sprint will contain part of the UI, more specifically:
+
+### Team displayed by boxes
+The different teams are displayed in a different box with:
+* Their team-name
+* The number of points that they currently have
+
+### Teams ordered list
+* The different teams are displayed in a ordered list.
+
+# React
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
