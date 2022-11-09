@@ -1,0 +1,9 @@
+.box {
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.card-text {
+  font-size: medium;
+  font-weight: 400;
+}
