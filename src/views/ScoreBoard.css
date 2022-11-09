@@ -1,0 +1,24 @@
+.main-container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 1em;
+  margin-top: 3em;
+}
+
+.box {
+  border: 1px solid black;
+  height: 20vh;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+  margin: 2em;
+}
+
+@media (max-width: 768px) {
+  .main-container {
+    display: block;
+  }
+}

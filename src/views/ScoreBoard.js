@@ -1,5 +1,6 @@
 import Team from "components/Team";
 import React from "react";
+import "./ScoreBoard.css";
 
 const ScoreBoard = () => {
   return (
@@ -7,7 +8,7 @@ const ScoreBoard = () => {
       <header>
         <h2>Solera Teams. Bootcamp 4</h2>
       </header>
-      <main>
+      <main className="main-container">
         <Team name="Team 1" score="0" />
         <Team name="Team 2" score="0" />
         <Team name="Team 3" score="0" />
