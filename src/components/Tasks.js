@@ -12,7 +12,10 @@ const DUMMY_TASKS = [
 
 function Tasks() {
   return (
-    <div className="main-container">
+    
+    
+    <div className="main-container1">
+        <h3> SOLERA TEAMS. BOOTCAMP 4</h3>
         <div className="titulos">
       <span className="title">Team X</span>
       <span className="title"> X puntos </span>
