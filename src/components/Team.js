@@ -7,7 +7,6 @@ const Team = ({ name, score }) => {
         <h3>{name}</h3>
       </header>
       <p>{score}</p>
-      <main></main>
     </article>
   );
 };
