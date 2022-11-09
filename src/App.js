@@ -1,3 +1,4 @@
+import Tasks from "components/Tasks";
 import React from "react";
 import { Routes, Route, Link } from "react-router-dom";
 
@@ -16,7 +17,7 @@ function App() {
           </ul>
         </nav>
         <Routes>
-          <Route path="/tasks" element={<h2>Second View</h2>}></Route>
+          <Route path="/tasks" element={<Tasks/>}></Route>
           <Route path="/" element={<h2>First View</h2>}></Route>
         </Routes>
       </div>
