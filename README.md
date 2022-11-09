@@ -14,7 +14,7 @@ The different teams are displayed in a different box with:
 * The number of points that they currently have
 
 ### Teams ordered list
-* The different teams are displayed in a ordered list.
+* A list with the points in each delivery.
 
 # React
 
