@@ -6,7 +6,7 @@ const ScoreBoard = ({ teams }) => {
   return (
     <>
       <header>
-        <h2>Solera Teams. Bootcamp 4</h2>
+        <h2><b>SOLERA TEAMS - BOOTCAMP 4</b></h2>
       </header>
       <main className="main-container">
         {teams.map((team) => (

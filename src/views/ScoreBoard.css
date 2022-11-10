@@ -4,6 +4,13 @@
   gap: 1em;
   margin-top: 3em;
 }
+
+header{
+  margin-top: 3em;
+  margin-left: 3em;
+  background-color: aliceblue;
+}
+
 /* 
 .box {
   border: 1px solid black;

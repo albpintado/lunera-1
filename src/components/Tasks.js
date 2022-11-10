@@ -10,25 +10,45 @@ function Tasks({ teams }) {
   }, 0);
 
   return (
+
     <div className="main-container1">
-      <h3> SOLERA TEAMS. BOOTCAMP 4</h3>
+
+      <h3><b> SOLERA TEAMS - BOOTCAMP 4</b></h3>
+
       <div className="titulos">
+
         <span className="title">{name}</span>
-        <span className="title">{totalScore} points</span>
+
+        <span className="title">{totalScore} POINTS</span>
+
       </div>
+
       <hr />
+
       <div className="table">
+
         {tasks.map((task) => {
+
           return (
+
             <div className="item" key={id}>
+
               <span>{task.name}</span>
-              <span>{task.score}</span>
+
+              <span>{task.score} POINTS   </span>
+
             </div>
+
           );
+
         })}
+
       </div>
+
     </div>
+
   );
+
 }
 
 export default Tasks;
